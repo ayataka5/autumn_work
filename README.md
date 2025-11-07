@@ -5,6 +5,7 @@
 下の文章を読みたくない人へ
 ```bash
 ./detect_period -in PhysicsAutumnWork.xlsx -tRange R17C8:R9999C8 -x1Range R17C9:R9999C9 -x2Range R17C11:R9999C11 -fs 100 --approx 2000
+./detect_period -in PhysicsAutumnWork.xlsx -tRange R17C8:R9999C8 -x1Range R17C9:R9999C9 -fs 100 --approx 2000
 ```
 みたいな感じで実行してください。
 ( --approx がとても重要です、ここでは約 20 秒であることを使いました)
